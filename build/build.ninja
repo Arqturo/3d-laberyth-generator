@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/
+cmake_ninja_workdir = C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/
 # =============================================================================
 # Object build statements for EXECUTABLE target OpenGLStarter
 
@@ -49,17 +49,24 @@ cmake_ninja_workdir = C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2
 
 build cmake_object_order_depends_target_OpenGLStarter: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
 
-build CMakeFiles/OpenGLStarter.dir/src/cord.cpp.obj: CXX_COMPILER__OpenGLStarter_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/src/cord.cpp || cmake_object_order_depends_target_OpenGLStarter
-  DEP_FILE = CMakeFiles\OpenGLStarter.dir\src\cord.cpp.obj.d
+build CMakeFiles/OpenGLStarter.dir/src/EBO.cpp.obj: CXX_COMPILER__OpenGLStarter_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/src/EBO.cpp || cmake_object_order_depends_target_OpenGLStarter
+  DEP_FILE = CMakeFiles\OpenGLStarter.dir\src\EBO.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/libs -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/learnopengl -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/images -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/models -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glad/include/glad -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glad/include
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glad/include/glad -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glad/include
   OBJECT_DIR = CMakeFiles\OpenGLStarter.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGLStarter.dir\src
 
-build CMakeFiles/OpenGLStarter.dir/src/main.cpp.obj: CXX_COMPILER__OpenGLStarter_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/src/main.cpp || cmake_object_order_depends_target_OpenGLStarter
+build CMakeFiles/OpenGLStarter.dir/src/cord.cpp.obj: CXX_COMPILER__OpenGLStarter_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/src/cord.cpp || cmake_object_order_depends_target_OpenGLStarter
+  DEP_FILE = CMakeFiles\OpenGLStarter.dir\src\cord.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glad/include/glad -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glad/include
+  OBJECT_DIR = CMakeFiles\OpenGLStarter.dir
+  OBJECT_FILE_DIR = CMakeFiles\OpenGLStarter.dir\src
+
+build CMakeFiles/OpenGLStarter.dir/src/main.cpp.obj: CXX_COMPILER__OpenGLStarter_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/src/main.cpp || cmake_object_order_depends_target_OpenGLStarter
   DEP_FILE = CMakeFiles\OpenGLStarter.dir\src\main.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/libs -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/learnopengl -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/images -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/models -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glad/include/glad -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glad/include
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glad/include/glad -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glad/include
   OBJECT_DIR = CMakeFiles\OpenGLStarter.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGLStarter.dir\src
 
@@ -71,10 +78,10 @@ build CMakeFiles/OpenGLStarter.dir/src/main.cpp.obj: CXX_COMPILER__OpenGLStarter
 #############################################
 # Link the executable OpenGLStarter.exe
 
-build OpenGLStarter.exe: CXX_EXECUTABLE_LINKER__OpenGLStarter_Debug CMakeFiles/OpenGLStarter.dir/src/cord.cpp.obj CMakeFiles/OpenGLStarter.dir/src/main.cpp.obj | external/glfw/src/libglfw3.a external/glad/libglad.a || external/glad/libglad.a external/glfw/src/libglfw3.a
+build OpenGLStarter.exe: CXX_EXECUTABLE_LINKER__OpenGLStarter_Debug CMakeFiles/OpenGLStarter.dir/src/EBO.cpp.obj CMakeFiles/OpenGLStarter.dir/src/cord.cpp.obj CMakeFiles/OpenGLStarter.dir/src/main.cpp.obj | external/glfw/src/libglfw3.a external/glad/libglad.a || external/glad/libglad.a external/glfw/src/libglfw3.a
   FLAGS = -g
   LINK_LIBRARIES = external/glfw/src/libglfw3.a  -lopengl32  external/glad/libglad.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  LINK_PATH = -LC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src   -LC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glad/src}
+  LINK_PATH = -LC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src   -LC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glad/src
   OBJECT_DIR = CMakeFiles\OpenGLStarter.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -87,7 +94,7 @@ build OpenGLStarter.exe: CXX_EXECUTABLE_LINKER__OpenGLStarter_Debug CMakeFiles/O
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2 -BC:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\usuario\Documents\work\work2\3d-laberyth-generator -BC:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -99,7 +106,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2 -BC:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\usuario\Documents\work\work2\3d-laberyth-generator -BC:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -117,7 +124,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -129,7 +136,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -141,7 +148,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -150,7 +157,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/CMakeLists.txt
+# C:/Users/usuario/Documents/work/work2/3d-laberyth-generator/CMakeLists.txt
 # =============================================================================
 
 
@@ -164,7 +171,7 @@ build external/glfw/uninstall: phony external/glfw/CMakeFiles/uninstall
 # Utility command for edit_cache
 
 build external/glfw/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build\external\glfw && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2 -BC:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build\external\glfw && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\usuario\Documents\work\work2\3d-laberyth-generator -BC:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -176,7 +183,7 @@ build external/glfw/edit_cache: phony external/glfw/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build external/glfw/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2 -BC:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\usuario\Documents\work\work2\3d-laberyth-generator -BC:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -194,7 +201,7 @@ build external/glfw/list_install_components: phony
 # Utility command for install
 
 build external/glfw/CMakeFiles/install.util: CUSTOM_COMMAND external/glfw/all
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -206,7 +213,7 @@ build external/glfw/install: phony external/glfw/CMakeFiles/install.util
 # Utility command for install/local
 
 build external/glfw/CMakeFiles/install/local.util: CUSTOM_COMMAND external/glfw/all
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -218,7 +225,7 @@ build external/glfw/install/local: phony external/glfw/CMakeFiles/install/local.
 # Utility command for install/strip
 
 build external/glfw/CMakeFiles/install/strip.util: CUSTOM_COMMAND external/glfw/all
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -230,11 +237,11 @@ build external/glfw/install/strip: phony external/glfw/CMakeFiles/install/strip.
 # Custom command for external\glfw\CMakeFiles\uninstall
 
 build external/glfw/CMakeFiles/uninstall | ${cmake_ninja_workdir}external/glfw/CMakeFiles/uninstall: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/cmake_uninstall.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/cmake_uninstall.cmake"
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/CMakeLists.txt
+# C:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -246,123 +253,123 @@ build external/glfw/CMakeFiles/uninstall | ${cmake_ninja_workdir}external/glfw/C
 
 build cmake_object_order_depends_target_glfw: phony || .
 
-build external/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/context.c || cmake_object_order_depends_target_glfw
+build external/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = external\glfw\src\CMakeFiles\glfw.dir\context.c.obj.d
   FLAGS = -g -std=c99 -Wall -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/src
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src
   OBJECT_DIR = external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\glfw\src\CMakeFiles\glfw.dir
 
-build external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/init.c || cmake_object_order_depends_target_glfw
+build external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = external\glfw\src\CMakeFiles\glfw.dir\init.c.obj.d
   FLAGS = -g -std=c99 -Wall -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/src
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src
   OBJECT_DIR = external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\glfw\src\CMakeFiles\glfw.dir
 
-build external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/input.c || cmake_object_order_depends_target_glfw
+build external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = external\glfw\src\CMakeFiles\glfw.dir\input.c.obj.d
   FLAGS = -g -std=c99 -Wall -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/src
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src
   OBJECT_DIR = external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\glfw\src\CMakeFiles\glfw.dir
 
-build external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
+build external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = external\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj.d
   FLAGS = -g -std=c99 -Wall -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/src
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src
   OBJECT_DIR = external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\glfw\src\CMakeFiles\glfw.dir
 
-build external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
+build external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = external\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
   FLAGS = -g -std=c99 -Wall -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/src
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src
   OBJECT_DIR = external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\glfw\src\CMakeFiles\glfw.dir
 
-build external/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/window.c || cmake_object_order_depends_target_glfw
+build external/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = external\glfw\src\CMakeFiles\glfw.dir\window.c.obj.d
   FLAGS = -g -std=c99 -Wall -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/src
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src
   OBJECT_DIR = external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\glfw\src\CMakeFiles\glfw.dir
 
-build external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
+build external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = external\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
   FLAGS = -g -std=c99 -Wall -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/src
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src
   OBJECT_DIR = external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\glfw\src\CMakeFiles\glfw.dir
 
-build external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
+build external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = external\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
   FLAGS = -g -std=c99 -Wall -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/src
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src
   OBJECT_DIR = external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\glfw\src\CMakeFiles\glfw.dir
 
-build external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
+build external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = external\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
   FLAGS = -g -std=c99 -Wall -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/src
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src
   OBJECT_DIR = external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\glfw\src\CMakeFiles\glfw.dir
 
-build external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
+build external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = external\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
   FLAGS = -g -std=c99 -Wall -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/src
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src
   OBJECT_DIR = external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\glfw\src\CMakeFiles\glfw.dir
 
-build external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
+build external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = external\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
   FLAGS = -g -std=c99 -Wall -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/src
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src
   OBJECT_DIR = external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\glfw\src\CMakeFiles\glfw.dir
 
-build external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
+build external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = external\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
   FLAGS = -g -std=c99 -Wall -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/src
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src
   OBJECT_DIR = external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\glfw\src\CMakeFiles\glfw.dir
 
-build external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
+build external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = external\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
   FLAGS = -g -std=c99 -Wall -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/src
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src
   OBJECT_DIR = external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\glfw\src\CMakeFiles\glfw.dir
 
-build external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
+build external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = external\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
   FLAGS = -g -std=c99 -Wall -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/src
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src
   OBJECT_DIR = external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\glfw\src\CMakeFiles\glfw.dir
 
-build external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
+build external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = external\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
   FLAGS = -g -std=c99 -Wall -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/include -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/src
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src
   OBJECT_DIR = external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\glfw\src\CMakeFiles\glfw.dir
 
@@ -393,7 +400,7 @@ build external/glfw/src/update_mappings: phony external/glfw/src/CMakeFiles/upda
 # Utility command for edit_cache
 
 build external/glfw/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build\external\glfw\src && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2 -BC:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build\external\glfw\src && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\usuario\Documents\work\work2\3d-laberyth-generator -BC:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -405,7 +412,7 @@ build external/glfw/src/edit_cache: phony external/glfw/src/CMakeFiles/edit_cach
 # Utility command for rebuild_cache
 
 build external/glfw/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2 -BC:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\usuario\Documents\work\work2\3d-laberyth-generator -BC:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -423,7 +430,7 @@ build external/glfw/src/list_install_components: phony
 # Utility command for install
 
 build external/glfw/src/CMakeFiles/install.util: CUSTOM_COMMAND external/glfw/src/all
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -435,7 +442,7 @@ build external/glfw/src/install: phony external/glfw/src/CMakeFiles/install.util
 # Utility command for install/local
 
 build external/glfw/src/CMakeFiles/install/local.util: CUSTOM_COMMAND external/glfw/src/all
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -447,7 +454,7 @@ build external/glfw/src/install/local: phony external/glfw/src/CMakeFiles/instal
 # Utility command for install/strip
 
 build external/glfw/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND external/glfw/src/all
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -459,12 +466,12 @@ build external/glfw/src/install/strip: phony external/glfw/src/CMakeFiles/instal
 # Custom command for external\glfw\src\CMakeFiles\update_mappings
 
 build external/glfw/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}external/glfw/src/CMakeFiles/update_mappings: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
   DESC = Updating gamepad mappings from upstream repository
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/CMakeLists.txt
+# C:/Users/usuario/Documents/work/work2/3d-laberyth-generator/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -476,10 +483,10 @@ build external/glfw/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}exter
 
 build cmake_object_order_depends_target_glad: phony || .
 
-build external/glad/CMakeFiles/glad.dir/src/glad.c.obj: C_COMPILER__glad_unscanned_Debug C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glad/src/glad.c || cmake_object_order_depends_target_glad
+build external/glad/CMakeFiles/glad.dir/src/glad.c.obj: C_COMPILER__glad_unscanned_Debug C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glad/src/glad.c || cmake_object_order_depends_target_glad
   DEP_FILE = external\glad\CMakeFiles\glad.dir\src\glad.c.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glad/include
+  INCLUDES = -IC:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glad/include
   OBJECT_DIR = external\glad\CMakeFiles\glad.dir
   OBJECT_FILE_DIR = external\glad\CMakeFiles\glad.dir\src
 
@@ -504,7 +511,7 @@ build external/glad/libglad.a: C_STATIC_LIBRARY_LINKER__glad_Debug external/glad
 # Utility command for edit_cache
 
 build external/glad/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build\external\glad && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2 -BC:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build\external\glad && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\usuario\Documents\work\work2\3d-laberyth-generator -BC:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -516,7 +523,7 @@ build external/glad/edit_cache: phony external/glad/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build external/glad/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build\external\glad && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2 -BC:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build\external\glad && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\usuario\Documents\work\work2\3d-laberyth-generator -BC:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -534,7 +541,7 @@ build external/glad/list_install_components: phony
 # Utility command for install
 
 build external/glad/CMakeFiles/install.util: CUSTOM_COMMAND external/glad/all
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build\external\glad && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build\external\glad && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -546,7 +553,7 @@ build external/glad/install: phony external/glad/CMakeFiles/install.util
 # Utility command for install/local
 
 build external/glad/CMakeFiles/install/local.util: CUSTOM_COMMAND external/glad/all
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build\external\glad && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build\external\glad && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -558,7 +565,7 @@ build external/glad/install/local: phony external/glad/CMakeFiles/install/local.
 # Utility command for install/strip
 
 build external/glad/CMakeFiles/install/strip.util: CUSTOM_COMMAND external/glad/all
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\OpengGLboilerplate2024-2\build\external\glad && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\usuario\Documents\work\work2\3d-laberyth-generator\build\external\glad && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -588,28 +595,28 @@ build update_mappings: phony external/glfw/src/update_mappings
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build
+# Folder: C:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build
 
 build all: phony OpenGLStarter.exe external/glfw/all external/glad/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glad
+# Folder: C:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glad
 
 build external/glad/all: phony external/glad/libglad.a
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw
+# Folder: C:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw
 
 build external/glfw/all: phony external/glfw/src/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/build/external/glfw/src
+# Folder: C:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src
 
 build external/glfw/src/all: phony external/glfw/src/libglfw3.a
 
@@ -620,14 +627,14 @@ build external/glfw/src/all: phony external/glfw/src/libglfw3.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindDoxygen.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/CMakeLists.txt C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glad/CMakeLists.txt C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/CMakeLists.txt C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/CMake/cmake_uninstall.cmake.in C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/CMake/glfw3.pc.in C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/CMake/glfw3Config.cmake.in C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/CMakeLists.txt C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/glfw_config.h.in CMakeCache.txt CMakeFiles/3.29.0-rc4/CMakeCCompiler.cmake CMakeFiles/3.29.0-rc4/CMakeCXXCompiler.cmake CMakeFiles/3.29.0-rc4/CMakeRCCompiler.cmake CMakeFiles/3.29.0-rc4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindDoxygen.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/CMakeLists.txt C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glad/CMakeLists.txt C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/CMakeLists.txt C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/CMake/cmake_uninstall.cmake.in C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/CMake/glfw3.pc.in C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/CMake/glfw3Config.cmake.in C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/CMakeLists.txt C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/glfw_config.h.in CMakeCache.txt CMakeFiles/3.29.0-rc4/CMakeCCompiler.cmake CMakeFiles/3.29.0-rc4/CMakeCXXCompiler.cmake CMakeFiles/3.29.0-rc4/CMakeRCCompiler.cmake CMakeFiles/3.29.0-rc4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindDoxygen.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/CMakeLists.txt C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glad/CMakeLists.txt C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/CMakeLists.txt C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/CMake/cmake_uninstall.cmake.in C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/CMake/glfw3.pc.in C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/CMake/glfw3Config.cmake.in C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/CMakeLists.txt C$:/Users/usuario/Documents/work/work2/OpengGLboilerplate2024-2/external/glfw/src/glfw_config.h.in CMakeCache.txt CMakeFiles/3.29.0-rc4/CMakeCCompiler.cmake CMakeFiles/3.29.0-rc4/CMakeCXXCompiler.cmake CMakeFiles/3.29.0-rc4/CMakeRCCompiler.cmake CMakeFiles/3.29.0-rc4/CMakeSystem.cmake: phony
+build C$:/Program$ Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindDoxygen.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/CMakeLists.txt C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glad/CMakeLists.txt C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/CMakeLists.txt C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/CMake/cmake_uninstall.cmake.in C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/CMake/glfw3.pc.in C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/CMake/glfw3Config.cmake.in C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/CMakeLists.txt C$:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src/glfw_config.h.in CMakeCache.txt CMakeFiles/3.29.0-rc4/CMakeCCompiler.cmake CMakeFiles/3.29.0-rc4/CMakeCXXCompiler.cmake CMakeFiles/3.29.0-rc4/CMakeRCCompiler.cmake CMakeFiles/3.29.0-rc4/CMakeSystem.cmake: phony
 
 
 #############################################

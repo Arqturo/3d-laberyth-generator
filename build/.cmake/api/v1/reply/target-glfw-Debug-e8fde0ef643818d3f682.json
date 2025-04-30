@@ -135,15 +135,15 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/usuario/Documents/work/work2/OpenGL-Starter/external/glfw/include"
+					"path" : "C:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/usuario/Documents/work/work2/OpenGL-Starter/external/glfw/src"
+					"path" : "C:/Users/usuario/Documents/work/work2/3d-laberyth-generator/external/glfw/src"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/usuario/Documents/work/work2/OpenGL-Starter/build/external/glfw/src"
+					"path" : "C:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build/external/glfw/src"
 				}
 			],
 			"language" : "C",

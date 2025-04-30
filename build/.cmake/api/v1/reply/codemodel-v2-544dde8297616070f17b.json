@@ -129,21 +129,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "OpenGLStarter::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-OpenGLStarter-Debug-e419c08af454f7f5356f.json",
+					"jsonFile" : "target-OpenGLStarter-Debug-f31290b12a710457824f.json",
 					"name" : "OpenGLStarter",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "glad::@55512df44c152ef9a2ca",
-					"jsonFile" : "target-glad-Debug-f00289f9142534d48ae5.json",
+					"jsonFile" : "target-glad-Debug-03a43d953ab37e840637.json",
 					"name" : "glad",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@ca12bac854c2ac6b2230",
-					"jsonFile" : "target-glfw-Debug-cd67a9fd105409e9d1f6.json",
+					"jsonFile" : "target-glfw-Debug-e8fde0ef643818d3f682.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
@@ -167,8 +167,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/usuario/Documents/work/work2/OpenGL-Starter/build",
-		"source" : "C:/Users/usuario/Documents/work/work2/OpenGL-Starter"
+		"build" : "C:/Users/usuario/Documents/work/work2/3d-laberyth-generator/build",
+		"source" : "C:/Users/usuario/Documents/work/work2/3d-laberyth-generator"
 	},
 	"version" : 
 	{
