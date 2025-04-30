@@ -1,0 +1,24 @@
+# ninja log v5
+4	27	0	clean	9c4b4372737ab8da
+40	4603	7338970553486674	external/glfw/src/CMakeFiles/glfw.dir/init.c.obj	cd37847fcdd48bbc
+50	2627	7338970729853582	external/glad/CMakeFiles/glad.dir/src/glad.c.obj	ca736da643d6411f
+35	4637	7338970553760891	external/glfw/src/CMakeFiles/glfw.dir/context.c.obj	d09d58baf5f4ee02
+49	4752	7338970555073791	external/glfw/src/CMakeFiles/glfw.dir/input.c.obj	13fe98734407286
+78	4693	7338970554200943	external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj	f62b364944051035
+32	1796	7338970720720017	external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj	797d2c6c254cbdc5
+60	4692	7338970554153625	external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj	b247de75e63cd4af
+68	4638	7338970553832821	external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj	79afab8a3729e8f7
+45	1899	7338970722562164	external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj	c44ff80a896747ab
+2184	2516	7338970728735726	external/glfw/src/libglfw3.a	892167ae1863b787
+15	4213	7340136558565129	CMakeFiles/OpenGLStarter.dir/src/main.cpp.obj	9fcf63ef14d33357
+26	233	7339911872429704	CMakeFiles/OpenGLStarter.dir/src/cord.cpp.obj	b201e4f5ebe06ed1
+73	4696	7338970554415211	external/glfw/src/CMakeFiles/glfw.dir/window.c.obj	1a37c737737b7857
+42	1982	7338970723382115	external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj	43065d0b62d80e78
+38	1936	7338970722910634	external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj	4adbea53a3f4f8c2
+4214	4906	7340136565030828	OpenGLStarter.exe	796352de32f4907b
+2627	2763	7338970731209982	external/glad/libglad.a	b1a57b5497ba95e6
+85	4650	7338970553955918	external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj	c8c2528026a09b81
+186	4691	7338970554024426	external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	9fa98fb89e757303
+28	1822	7338970721572368	external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj	7ac8c0f07db21b87
+35	2184	7338970725401866	external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj	bae116caa24f0019
+39	2594	7340264358015408	OpenGLStarter.exe	796352de32f4907b
